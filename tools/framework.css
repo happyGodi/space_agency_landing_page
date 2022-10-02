@@ -1,0 +1,66 @@
+/*Custom made framework for ease of working*/
+.text-blue{
+    color: #09194d;
+}
+.bg-none{
+    background-color: transparent;
+}
+.br-none{
+    border: none;
+    outline: none;
+}
+.bg-white{
+    background-color: white;
+}
+.butt-rounded-white{
+    background-color: white;
+    color: black;
+    padding: 0.5em 1.5em;
+    border-radius: 1.5em;
+    border: 2px solid white;
+    outline: none;
+    transition: 200ms ease-in-out;
+}
+.butt-rounded-white:hover{
+    background-color: transparent;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.bg-blur{
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 5px 5px 5px rgba(6, 0, 22, 0.17);
+    border-radius: 1em;
+    margin: 1em;
+    padding: 2em;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.center-content-r{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.center-content-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.w-5{width: 50%;}
+.w-7{width: 75%;}
+
+.w-max{
+    width: max-content;
+}
+.card-blur{
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 5px 5px 5px rgba(6, 0, 22, 0.17);
+    border-radius: 0.5em;
+    margin: 1em;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+    overflow: hidden;
+}

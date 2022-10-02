@@ -1,0 +1,109 @@
+/*for using custom fonts*/
+@font-face{
+    font-family: Abel-r;
+    src: url(../assets/font/Abel-Regular.ttf)
+}
+@font-face{
+    font-family: AdventPro-Bold;
+    src: url(../assets/font/AdventPro-Bold.ttf)
+}
+@font-face{
+    font-family: AdventPro-xl;
+    src: url(../assets/font/AdventPro-ExtraLight.ttf)
+}
+@font-face{
+    font-family: AdventPro-l;
+    src: url(../assets/font/AdventPro-Light.ttf)
+}
+@font-face{
+    font-family: AdventPro-m;
+    src: url(../assets/font/AdventPro-Medium.ttf)
+}
+@font-face{
+    font-family: AdventPro-r;
+    src: url(../assets/font/AdventPro-Regular.ttf)
+}
+@font-face{
+    font-family: Allura-r;
+    src: url(../assets/font/Allura-Regular.ttf)
+}
+@font-face{
+    font-family: Anton-r;
+    src: url(../assets/font/Anton-Regular.ttf)
+}
+@font-face{
+    font-family: ArchitectsDaughter-r;
+    src: url(../assets/font/ArchitectsDaughter-Regular.ttf)
+}
+@font-face{
+    font-family: AlexBrush-r;
+    src: url(../assets/font/AlexBrush-Regular.ttf)
+}
+@font-face{
+    font-family: Badscript;
+    src: url(../assets/font/BadScript-Regular.ttf)
+}
+@font-face{
+    font-family: Balou2-b;
+    src: url(../assets/font/Baloo2-Bold.ttf)
+}
+@font-face{
+    font-family: Balou2-r;
+    src: url(../assets/font/Baloo2-Regular.ttf)
+}
+@font-face{
+    font-family: BellotaText-b;
+    src: url(../assets/font/BellotaText-Bold.ttf)
+}@font-face{
+    font-family: BellotaText-i;
+    src: url(../assets/font/BellotaText-Italic.ttf)
+}@font-face{
+    font-family: BellotaText-r;
+    src: url(../assets/font/BellotaText-Regular.ttf)
+}
+@font-face{
+    font-family: Cairo-b;
+    src: url(../assets/font/Cairo-Bold.ttf)
+}
+@font-face{
+    font-family: Cairo-l;
+    src: url(../assets/font/Cairo-Light.ttf)
+}
+@font-face{
+    font-family: Cairo-r;
+    src: url(../assets/font/Cairo-Regular.ttf)
+}
+@font-face{
+    font-family: HelveticaNowDisplay-b;
+    src: url(../assets/font/HelveticaNowDisplay-Bold.ttf)
+}
+@font-face{
+    font-family: HelveticaNowDisplay-l;
+    src: url(../assets/font/HelveticaNowDisplay-Light.ttf)
+}
+@font-face{
+    font-family: HelveticaNowDisplay-r;
+    src: url(../assets/font/HelveticaNowDisplay-Regular.ttf)
+}
+@font-face{
+    font-family: LexendExa-r;
+    src: url(../assets/font/LexendExa-Regular.ttf)
+}
+@font-face{
+    font-family: LexendZetta-r;
+    src: url(../assets/font/LexendZetta-Regular.ttf)
+}
+@font-face{
+    font-family: MrDafoe-r;
+    src: url(../assets/font/MrDafoe-Regular.ttf)
+}
+@font-face{
+    font-family: Rochester-r;
+    src: url(../assets/font/Rochester-Regular.ttf)
+}
+@font-face{
+    font-family: Rocksalt-r;
+    src: url(../assets/font/RockSalt-Regular.ttf)
+}
+
+

@@ -1,0 +1,172 @@
+.landingPage{
+    background-image: url("../assets/2352.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+/*
+.item{
+    transition: 1.5s ease-in;
+}
+.item:hover{
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+}
+*/
+.home{/*home button style*/
+    background-color: white;
+    border-radius: 1em;
+    padding: 0.2em 1em;
+    transition: 200ms ease;
+}
+.home:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.explore{
+    color: white;
+    background-color: rgb(84, 0, 195);
+    border: none;
+    transition: 400ms linear ;
+    margin: 0.5em;
+}
+.explore:hover{
+    background-image: linear-gradient(to right, rgb(189, 38, 0), rgb(255, 119, 0) );
+    border: none;
+    color: white;
+}
+.spaceCard{
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 410px;
+    min-height: 410px;
+    overflow: hidden;
+}
+.description{
+    max-height: 100px;
+    min-height: 100px;
+    overflow: hidden;
+}
+#one{
+    margin-top: 6em;
+    margin-right: -2em;
+}
+#two{
+    margin-top: -6em;
+    margin-left: -2em;
+}
+#three{
+    margin-top: 6em;
+    margin-left: -4em;
+}
+.images{
+    max-height: 200px;
+    min-height: 200px;
+    overflow: hidden;
+}
+.item{
+    transition: 400ms linear 700ms;
+}
+.item:hover{
+    background-color: rgb(29, 4, 95);
+    border-bottom: 2px solid white;
+}
+.card-img{
+    transition: 300ms ease;
+}
+.card-img:hover{
+    transform: scale(1.2);
+}
+.end{
+    position: sticky;
+    bottom: 0;
+    left: 0%;
+    border-top: 2px solid white;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#shortDesc{
+    animation-name: smoothDisplay;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+/**responsivity*/
+
+@media  screen and (max-width:1300px)  {
+    .cards{
+        transform: scale(0.7);
+        margin-left: -5em;
+        margin-top: -5em;
+    }
+    #shortDesc{
+        margin-left: 3em;
+     }
+    #one{
+        margin-top: 3em;
+        margin-right: -1em;
+    }
+    #two{
+        margin-top: -3em;
+        margin-left: -1em;
+    }
+    #three{
+        margin-top: 3em;
+        margin-left: -2em;
+    }
+}
+@media screen and (max-width:960px) {
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    #shortDesc{
+       margin-left: 2em;
+    }
+}
+@media screen and (max-width:539px) {
+    .cards{
+        transform: scale(0.9);
+        flex-direction: column;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    #shortDesc{
+        transform: scale(0.9);
+        margin-top: -4em;
+        margin-bottom: -4em;
+     }
+    #one{
+       margin: 1em;
+    }
+    #two{
+       margin: 1em;
+    }
+    #three{
+        margin: 1em;
+    }
+}
+@keyframes smoothDisplay {
+    0%{display: none;}
+    100%{display: initial;}
+}
