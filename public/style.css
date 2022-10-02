@@ -38,7 +38,7 @@
     margin: 0.5em;
 }
 .explore:hover{
-    background-image: linear-gradient(to right, rgb(189, 38, 0), rgb(255, 119, 0) );
+    background-color: rgb(54, 174, 234);
     border: none;
     color: white;
 }
