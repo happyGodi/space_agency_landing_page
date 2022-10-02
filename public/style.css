@@ -5,6 +5,10 @@
     background-repeat: no-repeat;
     width: 100%;
     min-height: 100vh;
+    filter: brightness(85%);
+}
+::-webkit-scrollbar{
+    display: none;
 }
 /*
 .item{
@@ -30,7 +34,7 @@
     color: white;
     background-color: rgb(84, 0, 195);
     border: none;
-    transition: 400ms linear ;
+    transition: 400ms;
     margin: 0.5em;
 }
 .explore:hover{
