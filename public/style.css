@@ -1,3 +1,11 @@
+#preloader{
+    background: rgb(9, 4, 32) url('../assets/loading_space.gif') no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 .landingPage{
     background-image: url("../assets/2352.jpg");
     background-size: cover;

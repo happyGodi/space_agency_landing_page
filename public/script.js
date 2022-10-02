@@ -4,7 +4,10 @@ function getEl(el){
 function getId(id){
     return document.getElementById(id);
 }
-
+let loader = getId('preloader');
+window.addEventListener('load', function(){
+    loader.style.display = 'none'
+})
 let item = getEl('item');
 let desc = getId('shortDesc');
 //console.log(item.length);
